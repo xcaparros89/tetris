@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.mini-grid{
+    width: 80px;
+    height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    margin-left: 50px;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+  
+.container{
+    display:flex;
+}
+
+.orange{
+    background-color: rgb(255, 167, 2);
+    border-right: 5px solid rgb(175, 130, 4);
+    border-bottom: 3px solid rgb(175, 130, 4);    
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    border-right: 5px solid rgb(150, 3, 3);
+    border-bottom: 3px solid rgb(150, 3, 3);
+}
+
+.brown{
+    background-color: rgb(165, 42, 42);
+    border-right: 5px solid rgb(95, 3, 3);
+    border-bottom: 3px solid rgb(95, 3, 3)
+}
+
+.tomato{
+    background-color: rgb(255, 99, 71);
+    border-right: 5px solid rgb(170, 80, 71);
+    border-bottom: 3px solid rgb(170, 80, 71); 
+}
+
+.salmon{
+    background-color: rgb(250, 128, 114);
+    border-right: 5px solid rgb(190, 128, 114);
+    border-bottom: 3px solid rgb(190, 128, 114);
+}
+
+@keyframes blinking{
+    0%{
+        opacity: 1
+    }
+    25%{
+        opacity: 0.3
+    }
+    50%{
+        opacity: 1
+    }
+
+    75%{
+        opacity: 0.3
+    }
+    100%{
+        opacity:1
+    }
+}
+
+.score-board{
+    margin-left: 50px;
+    margin-top: 50px;
+}
